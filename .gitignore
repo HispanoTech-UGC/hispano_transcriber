@@ -1,0 +1,55 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de entorno virtual
+venv/
+ENV/
+env/
+.env
+
+# Logs y bases de datos
+*.log
+*.sqlite
+*.db
+
+# Archivos de caché y archivos temporales
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Archivos específicos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de modelos (ya que son grandes, quizás convenga usar Git LFS)
+# Comenta la siguiente línea si quieres incluir los modelos en el repositorio
+# vosk-model-*/ 
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
