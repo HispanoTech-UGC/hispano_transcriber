@@ -1,0 +1,36 @@
+# Configuración de Git LFS para manejar archivos grandes eficientemente
+
+# Archivos de modelo de voz
+*.zip filter=lfs diff=lfs merge=lfs -text
+vosk-model-es-0.42.zip filter=lfs diff=lfs merge=lfs -text
+vosk-model-es-0.42/* filter=lfs diff=lfs merge=lfs -text
+vosk-model-es-0.42/vosk-model-es-0.42/* filter=lfs diff=lfs merge=lfs -text
+*.mdl filter=lfs diff=lfs merge=lfs -text
+*.fst filter=lfs diff=lfs merge=lfs -text
+*.raw filter=lfs diff=lfs merge=lfs -text
+*.carpa filter=lfs diff=lfs merge=lfs -text
+
+# Archivos de audio de prueba (si se añaden en el futuro)
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.flac filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+
+# Archivos binarios comunes
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+
+# Imágenes
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+
+# Documentos
+*.pdf filter=lfs diff=lfs merge=lfs -text
