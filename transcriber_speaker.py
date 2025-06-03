@@ -202,26 +202,7 @@ def format_speaker_output(speaker, text):
     }
     
     icon = colors.get(speaker, "⚪")
-    formatted_text = f"{icon} {speaker}: {text}"
-    
-    # Imprimir el texto formateado
-    format_transcription_output(speaker, text)
-    
-    return formatted_text
-
-
-def format_transcription_output(speaker, text):
-    """Imprime el texto transcrito con formato"""
-    colors = {
-        "Hablante 1": "🔵",
-        "Hablante 2": "🔴", 
-        "Hablante 3": "🟢",
-        "Hablante 4": "🟡",
-        "Hablante 5": "🟣"
-    }
-    
-    icon = colors.get(speaker, "⚪")
-    print(f"\n{icon} {speaker}: {text}")
+    return f"{icon} {speaker}: {text}"
 
 
 def cargar_modelos():
