@@ -16,7 +16,7 @@ import time
 import argparse
 
 # --- CONFIGURACIÓN ---
-MODEL_PATH = "vosk-model-es-0.42/vosk-model-es-0.42"
+MODEL_PATH = "vosk-model-es-0.42"
 SAMPLE_RATE = 16000
 BLOCK_SIZE = 3200  # 0.2 segundos por bloque
 SPEAKER_BUFFER_DURATION = 3.0  # Segundos de audio para análisis de hablante
