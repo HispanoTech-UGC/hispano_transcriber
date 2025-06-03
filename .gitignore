@@ -47,9 +47,10 @@ coverage.xml
 *.swo
 
 # Archivos de modelos (ya que son grandes, quizás convenga usar Git LFS)
-# Comenta la siguiente línea si quieres incluir los modelos en el repositorio
-# vosk-model-*/ 
+# Al inicio usaremos repositorio sin los modelos para facilitar el push inicial
+vosk-model-*/
+vosk-model-es-0.42.zip
 
 # Archivos de sistema operativo
 .DS_Store
-Thumbs.db
+Thumbs.dbvosk-model-es-0.42/
